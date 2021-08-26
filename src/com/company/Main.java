@@ -65,7 +65,7 @@ public class Main {
     public static int indexOfNumber(int[] array, int no) {
         int index = 0;
         for (int i = 0; i < array.length; i++) {
-            if (array[i] == no) {        // here you pass some value for example 77
+            if (array[i] == no) {
                 index = i;
             }
         }
